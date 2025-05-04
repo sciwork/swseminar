@@ -1,0 +1,18 @@
+[build]
+  publish = "sitemap"
+
+[[redirects]]
+  from = "/2024/*"
+  to = "https://sciwork.dev/seminar/2024/06-seminar"
+  force = true
+
+[[redirects]]
+  from = "/2025/*"
+  to = "https://seminar2025.sciwork.dev/:splat"
+  force = true
+
+[[redirects]]
+  from = "/*"
+  to = "https://swseminar2025.netlify.app/:splat"
+  status = 200
+  force = true
